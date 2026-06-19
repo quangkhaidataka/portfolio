@@ -1040,7 +1040,30 @@
         <div class="section-divider"></div>
     </div>
 
-    
+
+
+    <div class="project-card fade-in">
+        <div class="project-top">
+            <span class="project-name">LLM-Driven Sentiment-Acceleration Alpha on S&amp;P 100</span>
+            <span class="project-date">2024–2025</span>
+        </div>
+        <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Claude Haiku 4.5</span>
+            <span class="project-tag">LLM Agents</span>
+            <span class="project-tag">Alpha Research</span>
+            <span class="project-tag">WRDS / CRSP</span>
+            <span class="project-tag">Backtesting</span>
+        </div>
+        <ul class="project-details">
+            <li>Designed <em>sentiment-acceleration</em>, a market-neutral long–short alpha on point-in-time S&amp;P 100 (WRDS CRSP): deployed a Claude Haiku 4.5 LLM subagent to extract sentiment, event-type and novelty features from 8.5K EDGAR 8-K filings and 2.9K GDELT articles (11K+ pairs at $11.84 via Batch API).</li>
+            <li>Validated the alpha with walk-forward purge–embargo cross-validation over 12 OOS quarters (2022–2024), enforcing sector-neutralization, weekly rebalancing and 5 bps round-trip transaction costs.</li>
+            <li>Achieved OOS Sharpe +0.78 after transaction cost with 3.3% MDD (7.7× lower than the S&amp;P 100 benchmark) and 9/12 positive quarters; outperformed VADER, 12-1 momentum and buy-and-hold baselines on risk-adjusted return at near-zero market beta.</li>
+        </ul>
+        <div class="project-links">
+            <a href="https://github.com/quangkhaidataka/LLM_Alpha" target="_blank"><i class="fab fa-github"></i> Code</a>
+        </div>
+    </div>
 
     <div class="project-card fade-in">
         <div class="project-top">
